@@ -28,10 +28,12 @@ def proxy_mangle_response(res):
 
 If present, the proxy_mangle_request and proxy_mangle_response methods are invoked on each HTTP request and response, respectively. In this example, the plug-in performs the following operations:
 
-For each HTTP request, the value of the User-Agent HTTP header is set to "ProxPy Agent"
-For each HTTP response, any occurrence of the "Google" substring is replaced with "elgooG"
+* For each HTTP request, the value of the User-Agent HTTP header is set to "ProxPy Agent"
+* For each HTTP response, any occurrence of the "Google" substring is replaced with "elgooG"
+
 Obviously real-world plug-ins are typically more complex than this.
-Usage
+
+##Usage
 To test the plug-in described in the previous section, run ProxPy with a command-line similar to the following one:
 
 ````
