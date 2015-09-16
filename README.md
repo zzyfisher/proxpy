@@ -1,5 +1,10 @@
-# proxpy
-Automatically exported from code.google.com/p/proxpy
+##proxpy
+
+**Automatically exported from code.google.com/p/proxpy**
+
+The original author of this project is 
+roberto.paleari@gmail.com, 
+alessandro.reina@gmail.com
 
 ##About
 ProxPy is a highly customizable HTTP/HTTPS proxy, written in Python. It is very handy for web penetration testers and for developers interested in testing their web applications.
